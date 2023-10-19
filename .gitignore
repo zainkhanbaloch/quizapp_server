@@ -1,0 +1,19 @@
+# Ignore Node.js generated files and folders
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore TypeScript output folder
+dist/
+
+# Ignore development environment files
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore local configuration
+config/
