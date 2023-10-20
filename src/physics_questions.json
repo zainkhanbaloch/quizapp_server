@@ -1,0 +1,174 @@
+[
+    {
+      "prompt": "What is the SI unit of force?",
+      "answer": "Newton (N)",
+      "options": [
+        "Watt (W)",
+        "Joule (J)",
+        "Newton (N)"
+      ]
+    },
+    {
+      "prompt": "What is the speed of light in a vacuum?",
+      "answer": "299,792,458 meters per second (m/s)",
+      "options": [
+        "299,792,458 meters per second (m/s)",
+        "186,282 miles per hour (mph)",
+        "400,000 kilometers per second (km/s)"
+      ]
+    },
+    {
+      "prompt": "What is the law of conservation of energy?",
+      "answer": "Energy cannot be created or destroyed, only transformed.",
+      "options": [
+        "Energy can be created from nothing.",
+        "Energy can be destroyed completely.",
+        "Energy cannot be created or destroyed, only transformed."
+      ]
+    },
+    {
+      "prompt": "Which scientist is famous for the theory of relativity?",
+      "answer": "Albert Einstein",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Galileo Galilei"
+      ]
+    },
+    {
+      "prompt": "What is the basic unit of electric charge?",
+      "answer": "Coulomb (C)",
+      "options": [
+        "Ampere (A)",
+        "Coulomb (C)",
+        "Volt (V)"
+      ]
+    },
+    {
+      "prompt": "What is the force that opposes motion between two surfaces in contact?",
+      "answer": "Friction",
+      "options": [
+        "Gravity",
+        "Magnetism",
+        "Friction"
+      ]
+    },
+    {
+      "prompt": "What is the third law of motion according to Newton?",
+      "answer": "For every action, there is an equal and opposite reaction.",
+      "options": [
+        "An object at rest will stay at rest.",
+        "Force equals mass times acceleration (F = ma).",
+        "For every action, there is an equal and opposite reaction."
+      ]
+    },
+    {
+      "prompt": "What is the phenomenon where light bends when it passes from one medium to another?",
+      "answer": "Refraction",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction"
+      ]
+    },
+    {
+      "prompt": "What is the measure of the disorder or randomness in a system?",
+      "answer": "Entropy",
+      "options": [
+        "Energy",
+        "Entropy",
+        "Temperature"
+      ]
+    },
+    {
+      "prompt": "What is the unit of electrical resistance?",
+      "answer": "Ohm (Ω)",
+      "options": [
+        "Watt (W)",
+        "Volt (V)",
+        "Ohm (Ω)"
+      ]
+    },
+    {
+      "prompt": "What is the SI unit of pressure?",
+      "answer": "Pascal (Pa)",
+      "options": [
+        "Newton (N)",
+        "Pascal (Pa)",
+        "Watt (W)"
+      ]
+    },
+    {
+      "prompt": "Which gas is essential for respiration and combustion?",
+      "answer": "Oxygen (O2)",
+      "options": [
+        "Nitrogen (N2)",
+        "Carbon dioxide (CO2)",
+        "Oxygen (O2)"
+      ]
+    },
+    {
+      "prompt": "What is the process of heat transfer by the movement of fluids (liquids or gases)?",
+      "answer": "Convection",
+      "options": [
+        "Conduction",
+        "Radiation",
+        "Convection"
+      ]
+    },
+    {
+      "prompt": "What is the law that states that the pressure and volume of a gas are inversely proportional at constant temperature?",
+      "answer": "Boyle's law",
+      "options": [
+        "Newton's law",
+        "Boyle's law",
+        "Ohm's law"
+      ]
+    },
+    {
+      "prompt": "What is the unit of power in the International System of Units (SI)?",
+      "answer": "Watt (W)",
+      "options": [
+        "Joule (J)",
+        "Ampere (A)",
+        "Watt (W)"
+      ]
+    },
+    {
+      "prompt": "What is the process by which heat or electricity is directly transmitted through a substance?",
+      "answer": "Conduction",
+      "options": [
+        "Convection",
+        "Radiation",
+        "Conduction"
+      ]
+    },
+    {
+      "prompt": "Which type of lens is thicker in the middle than at the edges?",
+      "answer": "Convex lens",
+      "options": [
+        "Concave lens",
+        "Plano lens",
+        "Convex lens"
+      ]
+    },
+    {
+      "prompt": "What is the unit of frequency?",
+      "answer": "Hertz (Hz)",
+      "options": [
+        "Watt (W)",
+        "Joule (J)",
+        "Hertz (Hz)"
+      ]
+    },
+    {
+      "prompt": "What is the law that states that like charges repel and opposite charges attract?",
+      "answer": "Coulomb's law",
+      "options": [
+        "Newton's law",
+        "Boyle's law",
+        "Coulomb's law"
+      ]
+    }
+  ]
+  

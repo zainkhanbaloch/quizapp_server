@@ -1,0 +1,138 @@
+[
+    {
+      "prompt": "What is HTML?",
+      "answer": "Hypertext Markup Language",
+      "options": [
+        "A web browser",
+        "Hypertext Markup Language",
+        "A programming language"
+      ]
+    },
+    {
+      "prompt": "What is the purpose of CSS in web development?",
+      "answer": "Styling and formatting web content",
+      "options": [
+        "Creating server-side scripts",
+        "Managing databases",
+        "Styling and formatting web content"
+      ]
+    },
+    {
+      "prompt": "What does CPU stand for?",
+      "answer": "Central Processing Unit",
+      "options": [
+        "Computer Power Unit",
+        "Central Processing Unit",
+        "Critical Processing Utility"
+      ]
+    },
+    {
+      "prompt": "What is JavaScript primarily used for?",
+      "answer": "Adding interactivity to web pages",
+      "options": [
+        "Editing images",
+        "Analyzing network traffic",
+        "Adding interactivity to web pages"
+      ]
+    },
+    {
+      "prompt": "What is the role of a database in software applications?",
+      "answer": "Storing and managing data",
+      "options": [
+        "Designing user interfaces",
+        "Processing payment transactions",
+        "Storing and managing data"
+      ]
+    },
+    {
+      "prompt": "What does HTTP stand for?",
+      "answer": "Hypertext Transfer Protocol",
+      "options": [
+        "Hyperlink Text Transmission Protocol",
+        "Hypertext Transfer Protocol",
+        "High-Level Text Transfer Protocol"
+      ]
+    },
+    {
+      "prompt": "What programming language is known for its use in machine learning and data analysis?",
+      "answer": "Python",
+      "options": [
+        "Java",
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "prompt": "Which data structure operates on a 'last-in, first-out' (LIFO) basis?",
+      "answer": "Stack",
+      "options": [
+        "Queue",
+        "Heap",
+        "Stack"
+      ]
+    },
+    {
+      "prompt": "What is the term for a malicious program that disguises itself as legitimate software?",
+      "answer": "Malware",
+      "options": [
+        "Spyware",
+        "Adware",
+        "Malware"
+      ]
+    },
+    {
+      "prompt": "Which company developed the C# programming language?",
+      "answer": "Microsoft",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft"
+      ]
+    },
+    {
+      "prompt": "What is the most popular version control system for managing and tracking changes in software development?",
+      "answer": "Git",
+      "options": [
+        "Subversion",
+        "Mercurial",
+        "Git"
+      ]
+    },
+    {
+      "prompt": "In object-oriented programming, what term is used for creating a blueprint for objects?",
+      "answer": "Class",
+      "options": [
+        "Object",
+        "Prototype",
+        "Class"
+      ]
+    },
+    {
+      "prompt": "What is the term for a web page element that allows users to submit data to a server?",
+      "answer": "Form",
+      "options": [
+        "Button",
+        "Link",
+        "Form"
+      ]
+    },
+    {
+      "prompt": "What is the process of finding and fixing errors in computer programs?",
+      "answer": "Debugging",
+      "options": [
+        "Testing",
+        "Programming",
+        "Debugging"
+      ]
+    },
+    {
+      "prompt": "Which programming language is often used for developing mobile applications for iOS devices?",
+      "answer": "Swift",
+      "options": [
+        "Java",
+        "C#",
+        "Swift"
+      ]
+    }
+  ]
+  

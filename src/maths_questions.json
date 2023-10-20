@@ -1,0 +1,174 @@
+[
+    {
+      "prompt": "What is the value of π (pi) to two decimal places?",
+      "answer": "3.14",
+      "options": [
+        "3.14",
+        "3.16",
+        "3.12"
+      ]
+    },
+    {
+      "prompt": "What is the sum of 7 and 9?",
+      "answer": "16",
+      "options": [
+        "15",
+        "16",
+        "17"
+      ]
+    },
+    {
+      "prompt": "What is the product of 5 and 8?",
+      "answer": "40",
+      "options": [
+        "35",
+        "40",
+        "45"
+      ]
+    },
+    {
+      "prompt": "What is the result of 12 divided by 3?",
+      "answer": "4",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "prompt": "If x = 7 and y = 3, what is x - y?",
+      "answer": "4",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "prompt": "Simplify 2 + 2 * 3",
+      "answer": "8",
+      "options": [
+        "8",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "prompt": "What is the square root of 25?",
+      "answer": "5",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "prompt": "How many sides does a hexagon have?",
+      "answer": "6",
+      "options": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "prompt": "What is the area of a rectangle with length 8 and width 6?",
+      "answer": "48",
+      "options": [
+        "42",
+        "48",
+        "54"
+      ]
+    },
+    {
+      "prompt": "If 3x = 15, what is the value of x?",
+      "answer": "5",
+      "options": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "prompt": "What is the next prime number after 17?",
+      "answer": "19",
+      "options": [
+        "18",
+        "19",
+        "20"
+      ]
+    },
+    {
+      "prompt": "If a right triangle has a hypotenuse of 10 and one leg of 6, what is the length of the other leg?",
+      "answer": "8",
+      "options": [
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "prompt": "What is the value of 4 squared?",
+      "answer": "16",
+      "options": [
+        "12",
+        "16",
+        "20"
+      ]
+    },
+    {
+      "prompt": "How many degrees are in a right angle?",
+      "answer": "90",
+      "options": [
+        "45",
+        "90",
+        "180"
+      ]
+    },
+    {
+      "prompt": "What is the circumference of a circle with a radius of 5?",
+      "answer": "31.42",
+      "options": [
+        "25.12",
+        "31.42",
+        "37.70"
+      ]
+    },
+    {
+      "prompt": "If 2x + 3 = 9, what is the value of x?",
+      "answer": "3",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "prompt": "What is the greatest common divisor (GCD) of 12 and 18?",
+      "answer": "6",
+      "options": [
+        "4",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "prompt": "What is the result of 6 cubed?",
+      "answer": "216",
+      "options": [
+        "120",
+        "216",
+        "360"
+      ]
+    },
+    {
+      "prompt": "If a triangle has angles of 90 degrees, 45 degrees, and 45 degrees, what type of triangle is it?",
+      "answer": "Isosceles right triangle",
+      "options": [
+        "Equilateral triangle",
+        "Isosceles triangle",
+        "Isosceles right triangle"
+      ]
+    }
+  ]
+  
