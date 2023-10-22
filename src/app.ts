@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import  handleGetQuestions  from './request_handler';
+import { handledb } from "./db_handler";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -11,7 +12,6 @@ app.use(cors())
 app.get("/", (req, res) => {
   res.send("😎Hello World!");
 });
-
 
 
 app.post("/get_questions", handleGetQuestions);

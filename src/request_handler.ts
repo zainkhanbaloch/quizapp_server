@@ -49,7 +49,7 @@ async function readQuestionsFile(
     const data = await fs.promises.readFile(jsonFilePath, "utf8");
     const jsonData = JSON.parse(data) as Questions[];
     return { data: jsonData };
-  } catch (err) {
+  } catch (err : any ) {
     console.error(`Error reading/parsing JSON file: ${err.message}`);
     return { error: err.message };
   }
@@ -66,7 +66,7 @@ async function getQuestions(data: get_questions_schema[]): Promise<Questions[]> 
       console.error(questionsFile.error);
       return []; // Return an empty array in case of an error
     } else {
-      const questions = questionsFile.data;
+      const questions : any = questionsFile.data;
       //console.log("Parsed questions:", questions);
 
       const randomNumbers: number[] = generateRandomNumbers(requiredQuestions, 0, questions.length - 1);

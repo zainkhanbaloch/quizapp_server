@@ -1,0 +1,57 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Question {
+  id                Int             @id @default(autoincrement())
+  prompt            String
+  answer            String
+  optionA           String
+  optionB           String
+  optionC           String
+  optionD           String
+  explanation       String
+  topic             Topic           @relation(fields: [topicId], references: [id])
+  class             Class           @relation(fields: [classId], references: [id])
+  subject           Subject         @relation(fields: [subjectId], references: [id])
+  difficultyLevel   DifficultyLevel @relation(fields: [difficultyLevelId], references: [id])
+  topicId           Int
+  classId           Int
+  subjectId         Int
+  difficultyLevelId Int
+}
+
+model Topic {
+  id        Int        @id @default(autoincrement())
+  name      String
+  subject   Subject    @relation(fields: [subjectId], references: [id])
+  Question  Question[]
+  subjectId Int
+}
+
+model Subject {
+  id       Int        @id @default(autoincrement())
+  name     String
+  Question Question[]
+  Topic    Topic[]
+}
+
+model Class {
+  id       Int        @id @default(autoincrement())
+  name     String
+  Question Question[]
+}
+
+model DifficultyLevel {
+  id       Int        @id @default(autoincrement())
+  name     String
+  Question Question[]
+}
