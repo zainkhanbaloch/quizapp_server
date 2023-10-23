@@ -33,7 +33,9 @@ model Topic {
   id        Int        @id @default(autoincrement())
   name      String
   subject   Subject    @relation(fields: [subjectId], references: [id])
+  class     Class      @relation(fields: [classId], references: [id])
   Question  Question[]
+  classId   Int
   subjectId Int
 }
 
@@ -48,6 +50,7 @@ model Class {
   id       Int        @id @default(autoincrement())
   name     String
   Question Question[]
+  Topic    Topic[]
 }
 
 model DifficultyLevel {

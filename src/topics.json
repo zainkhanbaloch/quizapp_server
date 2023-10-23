@@ -1,0 +1,178 @@
+[
+    {
+        "name" : "Complex Numbers",
+        "classId" : 1,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Sets",
+        "classId" : 1,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Matrices and Determinants",
+        "classId" : 1,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Binomial Theorem",
+        "classId" : 1,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Partial Fractions",
+        "classId" : 1,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Limits and Functions",
+        "classId" : 2,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Intergration",
+        "classId" : 2,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Derivation",
+        "classId" : 2,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Conic Section",
+        "classId" : 2,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Analytical Geometry",
+        "classId" : 2,
+        "subjectId" : 1
+    },
+    {
+        "name" : "Vectors",
+        "classId" : 1,
+        "subjectId" : 2
+    },
+    {
+        "name" : "Work and Energy",
+        "classId" : 1,
+        "subjectId" : 2
+    },
+    {
+        "name" : "Thermodynamics",
+        "classId" : 1,
+        "subjectId" : 2
+    },
+    {
+        "name" : "Oscillations",
+        "classId" : 1,
+        "subjectId" : 2
+    },
+    {
+        "name" : "Electromagnetism",
+        "classId" : 2,
+        "subjectId" : 2
+    },
+    {
+        "name" : "Nuclear Physics",
+        "classId" : 2,
+        "subjectId" : 2
+    },
+    {
+        "name" : "Modern Physics",
+        "classId" : 2,
+        "subjectId" : 2
+    },
+    {
+        "name" : "Databases",
+        "classId" : 1,
+        "subjectId" : 3
+    },
+    {
+        "name" : "Networks",
+        "classId" : 1,
+        "subjectId" : 3
+    },
+    {
+        "name" : "CPU",
+        "classId" : 1,
+        "subjectId" : 3
+    },
+    {
+        "name" : "Flow Control",
+        "classId" : 2,
+        "subjectId" : 3
+    },
+    {
+        "name" : "OOP",
+        "classId" : 2,
+        "subjectId" : 3
+    },
+    {
+        "name" : "File Handling",
+        "classId" : 2,
+        "subjectId" : 3
+    },
+    {
+        "name" : "Pointers",
+        "classId" : 2,
+        "subjectId" : 3
+    },
+    {
+        "name" : "Electrochemistry",
+        "classId" : 1,
+        "subjectId" : 4
+    },
+    {
+        "name" : "Atomic Structure",
+        "classId" : 1,
+        "subjectId" : 4
+    },
+    {
+        "name" : "Stoichometry",
+        "classId" : 1,
+        "subjectId" : 4
+    },
+    {
+        "name" : "Organic Chemistry",
+        "classId" : 2,
+        "subjectId" : 4
+    },
+    {
+        "name" : "Equilibrum",
+        "classId" : 2,
+        "subjectId" : 4
+    },
+    {
+        "name" : "Industrial Chemistry",
+        "classId" : 2,
+        "subjectId" : 4
+    },
+    {
+        "name" : "Ratio and Proportion",
+        "classId" : 1,
+        "subjectId" : 5
+    },
+    {
+        "name" : "Practical Geometry",
+        "classId" : 1,
+        "subjectId" : 5
+    },
+    {
+        "name" : "Geometric Theorems",
+        "classId" : 2,
+        "subjectId" : 5
+    },
+    {
+        "name" : "Quadratic Equations",
+        "classId" : 2,
+        "subjectId" : 5
+    },
+    {
+        "name" : "Statistics",
+        "classId" : 2,
+        "subjectId" : 5
+    }
+    
+]

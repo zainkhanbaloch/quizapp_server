@@ -14,7 +14,7 @@ export async function handledb() {
     const myclass = await prisma.question.findMany({
         where: {
             subject: {
-              name: "maths"
+              name: "aths"
             }
           }
     })
