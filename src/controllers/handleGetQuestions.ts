@@ -1,5 +1,8 @@
 import { Request, Response } from "express";
 import * as fs from "fs";
+import { PrismaClient } from "@prisma/client";
+
+const prisma = new PrismaClient();
 
 const dataToSend = [
   { subject: "computer", questions: 5 },
@@ -12,9 +15,15 @@ type get_questions_schema = {
   questions: number;
 };
 
-function generateRandomNumbers(length: number, min: number, max: number): number[] {
+function generateRandomNumbers(
+  length: number,
+  min: number,
+  max: number
+): number[] {
   if (max - min + 1 < length) {
-    throw new Error("Cannot generate unique random numbers with the given range and length.");
+    throw new Error(
+      "Cannot generate unique random numbers with the given range and length."
+    );
   }
 
   const uniqueNumbers: Set<number> = new Set();
@@ -49,13 +58,15 @@ async function readQuestionsFile(
     const data = await fs.promises.readFile(jsonFilePath, "utf8");
     const jsonData = JSON.parse(data) as Questions[];
     return { data: jsonData };
-  } catch (err : any ) {
+  } catch (err: any) {
     console.error(`Error reading/parsing JSON file: ${err.message}`);
     return { error: err.message };
   }
 }
 
-async function getQuestions(data: get_questions_schema[]): Promise<Questions[]> {
+async function getQuestions(
+  data: get_questions_schema[]
+): Promise<Questions[]> {
   const questionPromises = data.map(async (block) => {
     const subject: string = block.subject;
     const requiredQuestions: number = block.questions;
@@ -66,11 +77,17 @@ async function getQuestions(data: get_questions_schema[]): Promise<Questions[]> 
       console.error(questionsFile.error);
       return []; // Return an empty array in case of an error
     } else {
-      const questions : any = questionsFile.data;
+      const questions: any = questionsFile.data;
       //console.log("Parsed questions:", questions);
 
-      const randomNumbers: number[] = generateRandomNumbers(requiredQuestions, 0, questions.length - 1);
-      const generatedQuestions: Questions[] = randomNumbers.map((index) => questions[index]);
+      const randomNumbers: number[] = generateRandomNumbers(
+        requiredQuestions,
+        0,
+        questions.length - 1
+      );
+      const generatedQuestions: Questions[] = randomNumbers.map(
+        (index) => questions[index]
+      );
       return generatedQuestions;
     }
   });
@@ -81,11 +98,16 @@ async function getQuestions(data: get_questions_schema[]): Promise<Questions[]> 
 }
 
 async function handleGetQuestions(req: Request, res: Response): Promise<void> {
-  const required_questions: get_questions_schema[] = req.body;
+  // const required_questions: get_questions_schema[] = req.body;
   console.log(`request body is ${req.body}`);
-  console.log("a request was received")
+  console.log("a request was received");
   try {
-    const response = await getQuestions(required_questions);
+    // const response = await getQuestions(required_questions);
+    const response = await prisma.question.findMany({
+      where: {
+        classId: 1,
+      },
+    });
     res.status(200).json(response);
   } catch (error) {
     res.status(500).json({ error: "Internal server error" });

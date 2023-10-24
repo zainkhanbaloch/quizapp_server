@@ -1,20 +1,15 @@
 import express from "express";
 import cors from "cors";
-import  handleGetQuestions  from './request_handler';
-import { handledb } from "./db_handler";
+import handleGetQuestions from "./controllers/handleGetQuestions";
+import { handledb } from "./controllers/db_handler";
+import testRouter from "./routes/testRoutes";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use(cors())
-
-app.get("/", (req, res) => {
-  res.send("😎Hello World!");
-});
-
-
-app.post("/get_questions", handleGetQuestions);
+app.use(cors());
+app.use(testRouter);
 
 app.listen(PORT, () => {
   console.log(`🔥Express Server running on port ${PORT}`);

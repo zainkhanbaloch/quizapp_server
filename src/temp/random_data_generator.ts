@@ -72,7 +72,7 @@ async function generateRandomQuestions() {
     topicId: randomNumber + 1,
     subjectId: randomTopic.subjectId,
     classId: randomTopic.classId,
-    difficultyLevelId: difficulty_level_id[getRandomNumber(0, 2)],
+    difficultyLevelId: difficulty_level_id[2],
     answer: getrandmonoption(),
 
   };
@@ -99,6 +99,6 @@ async function main() {
   }
 }
 
-for(let i: number = 0; i < 4000; i++){
+for(let i: number = 0; i < 1000; i++){
   main();
 }
